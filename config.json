@@ -1,0 +1,27 @@
+{
+    "user_agent": "Super unique UA",
+    "username": "",
+    "password": "",
+    "check_rate": 60,
+    "subreddit": "PokemonGiveawayGlore",
+    "default_flair_css_class": "Pikachu",
+    "commands": {
+        "friend_code": [
+            "fc",
+            "friend code"
+        ],
+        "flair_css_class": [
+            "flair",
+            "css",
+            "pokemon"
+        ],
+        "in_game_name": [
+            "ign",
+            "username"
+        ],
+        "message": [
+            "message",
+            "note"
+        ]
+    }
+}
