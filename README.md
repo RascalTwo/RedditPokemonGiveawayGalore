@@ -75,6 +75,23 @@ The key of the command, which is the internal immutable name of the command, and
 
 *****
 
+# Usage
+
+*****
+
+An example message would look like such:
+
+    Pokemon: Pikachu
+    Message: <3 Pikachu
+    FC: 1234-5678-9012
+    IGN: PokemonMaster123
+
+These options can be in any order, and you can have as few or as many of them as you want. You can only change the flair, a certain part of your flair text, or - as shown above - every part of your flair.
+
+Case does not matter for both the attribute to be set - left of the colen - and for the css class.
+
+*****
+
 # Technical Breakdown
 
 *****
