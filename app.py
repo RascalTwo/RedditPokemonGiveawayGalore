@@ -169,7 +169,8 @@ class PokemonGiveawayGloreBot(object):
         else:
             data["flair_css_class"] = data["flair_css_class"].lower()
 
-        old_flair = self._flair_text_as(raw_old_flair["flair_text"], "dict")
+        raw_old_flair["flair_text"] = "" if raw_old_flair["flair_text"] is None else raw_old_flair["flair_text"]
+        old_flair = self._flair_text_as(, "dict")
         data = self._combine_flair_data(data, old_flair)
         flair_text = self._flair_text_as(data, "str")
         if raw_old_flair["flair_text"] == flair_text and raw_old_flair["flair_css_class"] == data["flair_css_class"]:
